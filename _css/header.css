@@ -13,6 +13,7 @@ header div {
     width: auto;
     position: relative;
     top: -12.5px;
+    border-radius: 1px;
 }
 
 @media only screen and (max-width: 350px) {
