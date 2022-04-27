@@ -1,0 +1,22 @@
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header div {
+    margin: 0 3% 0 3%;
+}
+
+.HeaderLine {
+    background-color: #000000;
+    height: 2px;
+    width: auto;
+    position: relative;
+    top: -12.5px;
+}
+
+@media only screen and (max-width: 350px) {
+    .HeaderLine {
+        top: -5px;
+    }
+}

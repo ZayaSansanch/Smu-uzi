@@ -1,0 +1,156 @@
+main #section1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 30% 20% 25% 15%;
+    grid-auto-rows: 31.5% 68.5% 0%;
+}
+
+
+/* main #section1 div {
+    background-color: aquamarine;
+    margin: 10px;
+} */
+
+main #section1 h1 {
+    font-size: 6rem;
+}
+
+main #section1 img {
+    height: 100%;
+    position: relative;
+}
+
+@media only screen and (max-width: 1050px) {
+    main #section1 {
+        grid-template-columns: 5% 30% 20% 25% 20%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    main #section1 {
+        grid-template-columns: none;
+        grid-template-columns: none;
+    }
+    main #section1 h1 {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+    }
+    main #section1 img {
+        position: absolute;
+        top: 30%;
+        height: 70%;
+        right: 50px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    main #section1 {
+        grid-template-columns: none;
+        grid-template-columns: none;
+    }
+    main #section1 h1 {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        font-size: 3rem;
+    }
+    main #section1 img {
+        position: absolute;
+        top: 50%;
+        height: 50%;
+        right: 50px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    body {
+        font-size: 0.7rem;
+    }
+    main #section1 {
+        grid-template-columns: none;
+        grid-template-columns: none;
+    }
+    main #section1 h1 {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        font-size: 3rem;
+    }
+    main #section1 img {
+        position: absolute;
+        top: 70%;
+        height: 30%;
+        right: 50px;
+    }
+}
+
+@media only screen and (max-width: 270px) {
+    body {
+        font-size: 0.5rem;
+    }
+    main #section1 {
+        grid-template-columns: none;
+        grid-template-columns: none;
+    }
+    main #section1 h1 {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        font-size: 3rem;
+    }
+    main #section1 img {
+        position: absolute;
+        top: 70%;
+        height: 30%;
+        right: 50px;
+    }
+}
+
+@media only screen and (max-width: 270px) {
+    body {
+        font-size: 0.5rem;
+    }
+    main #section1 {
+        grid-template-columns: none;
+        grid-template-columns: none;
+    }
+    main #section1 h1 {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        font-size: 2rem;
+    }
+    main #section1 img {
+        position: absolute;
+        top: 70%;
+        height: 30%;
+        right: 50px;
+    }
+}
+
+@media only screen and (max-width: 270px) {
+    body {
+        font-size: 0.5rem;
+    }
+    main #section1 {
+        grid-template-columns: none;
+        grid-template-columns: none;
+    }
+    main #section1 h1 {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        font-size: 2rem;
+    }
+    main #section1 img {
+        position: absolute;
+        top: 80%;
+        height: 20%;
+        right: 50px;
+    }
+}
